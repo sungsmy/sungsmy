@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		980632A519234B0A00590EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980632A419234B0A00590EBA /* Foundation.framework */; };
+		980632A719234B0A00590EBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980632A619234B0A00590EBA /* CoreGraphics.framework */; };
+		980632A919234B0A00590EBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980632A819234B0A00590EBA /* UIKit.framework */; };
+		980632AF19234B0A00590EBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 980632AD19234B0A00590EBA /* InfoPlist.strings */; };
+		980632B119234B0A00590EBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 980632B019234B0A00590EBA /* main.m */; };
+		980632B519234B0A00590EBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 980632B419234B0A00590EBA /* AppDelegate.m */; };
+		980632B719234B0A00590EBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980632B619234B0A00590EBA /* Images.xcassets */; };
+		980632BE19234B0A00590EBA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980632BD19234B0A00590EBA /* XCTest.framework */; };
+		980632BF19234B0A00590EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980632A419234B0A00590EBA /* Foundation.framework */; };
+		980632C019234B0A00590EBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980632A819234B0A00590EBA /* UIKit.framework */; };
+		980632C819234B0A00590EBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 980632C619234B0A00590EBA /* InfoPlist.strings */; };
+		980632CA19234B0A00590EBA /* diarywithjesusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 980632C919234B0A00590EBA /* diarywithjesusTests.m */; };
+		980632D619234B6F00590EBA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 980632D419234B6F00590EBA /* MainViewController.m */; };
+		980632D719234B6F00590EBA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 980632D519234B6F00590EBA /* MainViewController.xib */; };
+		9888762119243E9400AE769E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9888762019243E9400AE769E /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		980632C119234B0A00590EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9806329919234B0A00590EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 980632A019234B0A00590EBA;
+			remoteInfo = diarywithjesus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		980632A119234B0A00590EBA /* diarywithjesus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diarywithjesus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		980632A419234B0A00590EBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		980632A619234B0A00590EBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		980632A819234B0A00590EBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		980632AC19234B0A00590EBA /* diarywithjesus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "diarywithjesus-Info.plist"; sourceTree = "<group>"; };
+		980632AE19234B0A00590EBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		980632B019234B0A00590EBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		980632B219234B0A00590EBA /* diarywithjesus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "diarywithjesus-Prefix.pch"; sourceTree = "<group>"; };
+		980632B319234B0A00590EBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		980632B419234B0A00590EBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		980632B619234B0A00590EBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		980632BC19234B0A00590EBA /* diarywithjesusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diarywithjesusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		980632BD19234B0A00590EBA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		980632C519234B0A00590EBA /* diarywithjesusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "diarywithjesusTests-Info.plist"; sourceTree = "<group>"; };
+		980632C719234B0A00590EBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		980632C919234B0A00590EBA /* diarywithjesusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = diarywithjesusTests.m; sourceTree = "<group>"; };
+		980632D319234B6F00590EBA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		980632D419234B6F00590EBA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		980632D519234B6F00590EBA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		9888761F19243E9400AE769E /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9888762019243E9400AE769E /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9806329E19234B0A00590EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980632A719234B0A00590EBA /* CoreGraphics.framework in Frameworks */,
+				980632A919234B0A00590EBA /* UIKit.framework in Frameworks */,
+				980632A519234B0A00590EBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980632B919234B0A00590EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980632BE19234B0A00590EBA /* XCTest.framework in Frameworks */,
+				980632C019234B0A00590EBA /* UIKit.framework in Frameworks */,
+				980632BF19234B0A00590EBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9806329819234B0A00590EBA = {
+			isa = PBXGroup;
+			children = (
+				980632AA19234B0A00590EBA /* diarywithjesus */,
+				980632C319234B0A00590EBA /* diarywithjesusTests */,
+				980632A319234B0A00590EBA /* Frameworks */,
+				980632A219234B0A00590EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		980632A219234B0A00590EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				980632A119234B0A00590EBA /* diarywithjesus.app */,
+				980632BC19234B0A00590EBA /* diarywithjesusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		980632A319234B0A00590EBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				980632A419234B0A00590EBA /* Foundation.framework */,
+				980632A619234B0A00590EBA /* CoreGraphics.framework */,
+				980632A819234B0A00590EBA /* UIKit.framework */,
+				980632BD19234B0A00590EBA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		980632AA19234B0A00590EBA /* diarywithjesus */ = {
+			isa = PBXGroup;
+			children = (
+				980632B319234B0A00590EBA /* AppDelegate.h */,
+				980632B419234B0A00590EBA /* AppDelegate.m */,
+				980632B619234B0A00590EBA /* Images.xcassets */,
+				980632AB19234B0A00590EBA /* Supporting Files */,
+				980632D319234B6F00590EBA /* MainViewController.h */,
+				980632D419234B6F00590EBA /* MainViewController.m */,
+				980632D519234B6F00590EBA /* MainViewController.xib */,
+				9888761F19243E9400AE769E /* WebViewController.h */,
+				9888762019243E9400AE769E /* WebViewController.m */,
+			);
+			path = diarywithjesus;
+			sourceTree = "<group>";
+		};
+		980632AB19234B0A00590EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				980632AC19234B0A00590EBA /* diarywithjesus-Info.plist */,
+				980632AD19234B0A00590EBA /* InfoPlist.strings */,
+				980632B019234B0A00590EBA /* main.m */,
+				980632B219234B0A00590EBA /* diarywithjesus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		980632C319234B0A00590EBA /* diarywithjesusTests */ = {
+			isa = PBXGroup;
+			children = (
+				980632C919234B0A00590EBA /* diarywithjesusTests.m */,
+				980632C419234B0A00590EBA /* Supporting Files */,
+			);
+			path = diarywithjesusTests;
+			sourceTree = "<group>";
+		};
+		980632C419234B0A00590EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				980632C519234B0A00590EBA /* diarywithjesusTests-Info.plist */,
+				980632C619234B0A00590EBA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		980632A019234B0A00590EBA /* diarywithjesus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980632CD19234B0A00590EBA /* Build configuration list for PBXNativeTarget "diarywithjesus" */;
+			buildPhases = (
+				9806329D19234B0A00590EBA /* Sources */,
+				9806329E19234B0A00590EBA /* Frameworks */,
+				9806329F19234B0A00590EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diarywithjesus;
+			productName = diarywithjesus;
+			productReference = 980632A119234B0A00590EBA /* diarywithjesus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		980632BB19234B0A00590EBA /* diarywithjesusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980632D019234B0A00590EBA /* Build configuration list for PBXNativeTarget "diarywithjesusTests" */;
+			buildPhases = (
+				980632B819234B0A00590EBA /* Sources */,
+				980632B919234B0A00590EBA /* Frameworks */,
+				980632BA19234B0A00590EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				980632C219234B0A00590EBA /* PBXTargetDependency */,
+			);
+			name = diarywithjesusTests;
+			productName = diarywithjesusTests;
+			productReference = 980632BC19234B0A00590EBA /* diarywithjesusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9806329919234B0A00590EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sungsmy;
+				TargetAttributes = {
+					980632BB19234B0A00590EBA = {
+						TestTargetID = 980632A019234B0A00590EBA;
+					};
+				};
+			};
+			buildConfigurationList = 9806329C19234B0A00590EBA /* Build configuration list for PBXProject "diarywithjesus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9806329819234B0A00590EBA;
+			productRefGroup = 980632A219234B0A00590EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				980632A019234B0A00590EBA /* diarywithjesus */,
+				980632BB19234B0A00590EBA /* diarywithjesusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9806329F19234B0A00590EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980632AF19234B0A00590EBA /* InfoPlist.strings in Resources */,
+				980632D719234B6F00590EBA /* MainViewController.xib in Resources */,
+				980632B719234B0A00590EBA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980632BA19234B0A00590EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980632C819234B0A00590EBA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9806329D19234B0A00590EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980632B519234B0A00590EBA /* AppDelegate.m in Sources */,
+				980632D619234B6F00590EBA /* MainViewController.m in Sources */,
+				980632B119234B0A00590EBA /* main.m in Sources */,
+				9888762119243E9400AE769E /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980632B819234B0A00590EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980632CA19234B0A00590EBA /* diarywithjesusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		980632C219234B0A00590EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 980632A019234B0A00590EBA /* diarywithjesus */;
+			targetProxy = 980632C119234B0A00590EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		980632AD19234B0A00590EBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				980632AE19234B0A00590EBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		980632C619234B0A00590EBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				980632C719234B0A00590EBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		980632CB19234B0A00590EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		980632CC19234B0A00590EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		980632CE19234B0A00590EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diarywithjesus/diarywithjesus-Prefix.pch";
+				INFOPLIST_FILE = "diarywithjesus/diarywithjesus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		980632CF19234B0A00590EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diarywithjesus/diarywithjesus-Prefix.pch";
+				INFOPLIST_FILE = "diarywithjesus/diarywithjesus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		980632D119234B0A00590EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/diarywithjesus.app/diarywithjesus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diarywithjesus/diarywithjesus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "diarywithjesusTests/diarywithjesusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		980632D219234B0A00590EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/diarywithjesus.app/diarywithjesus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diarywithjesus/diarywithjesus-Prefix.pch";
+				INFOPLIST_FILE = "diarywithjesusTests/diarywithjesusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9806329C19234B0A00590EBA /* Build configuration list for PBXProject "diarywithjesus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980632CB19234B0A00590EBA /* Debug */,
+				980632CC19234B0A00590EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980632CD19234B0A00590EBA /* Build configuration list for PBXNativeTarget "diarywithjesus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980632CE19234B0A00590EBA /* Debug */,
+				980632CF19234B0A00590EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980632D019234B0A00590EBA /* Build configuration list for PBXNativeTarget "diarywithjesusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980632D119234B0A00590EBA /* Debug */,
+				980632D219234B0A00590EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9806329919234B0A00590EBA /* Project object */;
+}
